@@ -1,0 +1,68 @@
+/* Reset dasar */
+* { box-sizing: border-box; }
+
+body {
+    background-color: #121212; /* Background Gelap */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+h1 { margin: 0; font-size: 2rem; }
+.subtitle { color: #888; margin-bottom: 2rem; font-size: 0.9rem; }
+
+/* Tombol Merah Khas Avalanche */
+button {
+    background-color: #E84142;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(232, 65, 66, 0.4);
+}
+
+button:hover { background-color: #ff5253; transform: translateY(-2px); }
+button:active { transform: translateY(0); }
+
+/* Card Style */
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.info-group { margin-bottom: 15px; }
+.info-group p { margin: 5px 0; font-size: 0.95rem; }
+.info-group strong { color: #aaa; }
+
+/* Styling Khusus Text Data */
+span, .address-text {
+    font-family: 'Courier New', monospace;
+    color: #00ff9d; /* Warna Hijau Hacker */
+    word-break: break-all;
+}
+
+/* Identitas Mahasiswa */
+.student-info { margin-top: 20px; }
+.student-info hr { border-color: #333; margin-bottom: 15px; }
+.student-info p { color: #fff; margin: 5px 0; }
